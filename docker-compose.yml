@@ -1,0 +1,12 @@
+services:
+  jarvis:
+    build: .
+    image: jarvis2.0
+    container_name: jarvis
+    environment:
+      JARVIS_PORT: ${JARVIS_PORT:-1337}
+    ports:
+      - "1337:1337"
+    network_mode: host
+    stdin_open: true
+    tty: true
