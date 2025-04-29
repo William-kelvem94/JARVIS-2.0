@@ -1,0 +1,6 @@
+google-cloud-speech
+watson-developer-cloud
+pyaudio
+speechrecognition
+pygame
+edge-tts
